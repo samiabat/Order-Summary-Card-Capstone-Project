@@ -52,8 +52,26 @@ body {
 .bill {
     background-color: hsl(225, 100%, 98%);
     display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 20px;
+    align-items: center;
 }
 
+.bill-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.bill-left div {
+    margin-left: 20px;
+}
+
+.bill-left div h5 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
 /* .attribution { font-size: 11px; text-align: center; }
 
 .attribution a { color: hsl(228, 45%, 44%); } */
