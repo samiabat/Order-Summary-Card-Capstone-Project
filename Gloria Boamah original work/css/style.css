@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('img/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.container{
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 90px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.order-summary-card{
+  width: 415px;
+  height: auto;
+  border-radius:15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.order-summary-card img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 15px 15px 0 0;
+}
+.order-summary-card h1{
+  color: hsl(223, 47%, 23%);
+  margin:  20px 0;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.order-summary-card p{
+  font-size: 16px;
+  text-align: center;
+  margin: 0px 40px 20px 50px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(224, 23%, 55%);
+  line-height:25.36px;
+}
+
+.component-price .price-schedule{
+  display: flex;
+  border:0px solid hsl(225, 100%, 98%); 
+  background: hsl(225, 100%, 98%); 
+  padding: 20px; 
+  width: 310px;
+  height: 90px;
+  top: 600px;
+  border-radius: 8px;
+  opacity: 80%;
+}
+
+.component-price img{
+  width:50px;
+  height: 50px;
+  margin: -0px 20px -0px 0px;
+  top:400px;
+}
+.price-schedule h4{
+  left: 52.1%;
+  top: 64.50%;
+  display: flex;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.price-schedule p{
+ position: absolute;
+ left: 43.0%;
+ right: 45.35%;
+ top: 67.6%;
+ font-family: 'Red Hat Display', sans-serif;
+ font-size: 16px;
+ display: flex;
+ align-items: center;
+ line-height: 32px;
+}
+.price-schedule a{
+  position: absolute;
+  color: hsl(245, 75%, 52%);
+  right: 660px;
+  top: 510px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 900;
+  display: flex;
+  text-decoration: underline;
+}
+.btn{
+  background-color: hsl(245, 75%, 52%);
+  width: 310px;
+  height: 45px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 12px 75px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Red Hat Display', sans-serif;
+  box-shadow: 0px 5px 20px 0px hsl(224, 23%, 55%);
+  margin-top: 30px;
+}
+.cancel-order{
+  color: #7280A7;
+  font-weight: 700;
+  margin: 25px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 14px;
+}
+
+/* Mobile view */
+@media(max-width:375px){
+  body{
+    font-size: 14px;
+    background-image: url(img/pattern-background-mobile.svg);
+    background:hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+  }
+}
+/*
+  .container{
+    width: 500px;
+  
+  }
+  .order-summary-card{
+    margin: 25px;
+
+  }
+  .price-schedule h4{
+    font-size: 15px;
+  }
+  .price-schedule p{
+    left: 34.07%;
+  }
+  .price-schedule a{
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .btn{
+    width: 290px;
+    height: 50px;
+    font-weight: 700;
+
+  }
+} -- */
