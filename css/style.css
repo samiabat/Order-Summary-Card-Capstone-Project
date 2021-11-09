@@ -10,7 +10,7 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     min-height: 100vh;
-    background-image: url("img/pattern-background-desktop.svg");
+    background-image: url("../img/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: hsl(225, 100%, 94%);
@@ -89,29 +89,31 @@ body {
     color: hsl(247, 87%, 68%);
 }
 
-a.btn-proceed {
-    display: block;
-    text-decoration: none;
-    font-weight: 700;
+button {
     color: white;
-    background-color: hsl(245, 75%, 52%);
-    border-radius: 12px;
+    background: hsl(245, 75%, 52%);
+    width: 385px;
+    box-shadow:0px 18px 5px hsl(247, 56%, 94%);
+    border-radius: 10px;
+    height: 60px;
     padding: 20px 0;
     margin: 30px 0;
-}
-
-a.btn-proceed:hover, a.btn-proceed:active {
-    background-color:hsl(247, 87%, 68%);
-}
-
-a.btn-cancel {
-    color:  hsl(224, 23%, 55%);
     font-weight: 700;
-    text-decoration: none;
+    display: block;
 }
 
-a.btn-cancel:hover, a.btn-cancel:active {
-    color:hsl(223, 47%, 23%);
+button:hover, button:active{
+    background-color: hsl(247, 87%, 68%);
+}
+
+
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+p:hover,p:active{
+    color:hsl(223, 47%, 23%)
 }
 /* .attribution { font-size: 11px; text-align: center; }
 
