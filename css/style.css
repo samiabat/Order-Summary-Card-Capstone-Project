@@ -100,6 +100,7 @@ button {
     margin: 30px 0;
     font-weight: 700;
     display: block;
+    border: none;
 }
 
 button:hover, button:active{
