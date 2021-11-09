@@ -16,7 +16,7 @@ body {
     background-color: hsl(225, 100%, 94%);
     position: relative;
     /* background-position: center; */
-    /* font-size: 16px; */
+    font-size: 16px;
 }
 
 .container {
@@ -29,8 +29,29 @@ body {
     border-radius: 20px;
     background-color: white;
     overflow: hidden;
-    
+}
 
+.text-container {
+    padding: 8%;
+    text-align: center;
+}
+
+.heading {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    /* font-size: 32px; */
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    color:  hsl(224, 23%, 55%);
+    /* font-weight: 500; */
+    margin-bottom: 25px;
+}
+
+.bill {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
 }
 
 /* .attribution { font-size: 11px; text-align: center; }
